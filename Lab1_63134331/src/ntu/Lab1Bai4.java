@@ -29,7 +29,12 @@ public class Lab1Bai4 {
 		delta = Math.pow(b, 2)- 4 * a * c;
 		
 		//kiem tra delta va xuat ra man hinh
-		
+		if(delta < 0) {
+			System.out.println("Phương trình không có nghiệm thực!");
+		}else {
+			double canDelta = Math.sqrt(delta);
+			System.out.println("Căn delta của chương trình là: " + canDelta);
+		}
 	}
 
 }
