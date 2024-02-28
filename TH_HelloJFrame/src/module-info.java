@@ -4,6 +4,6 @@
 /**
  * 
  */
-module TH_Bai0_SimpleCaculor {
+module TH_HelloJFrame {
 	requires java.desktop;
 }
