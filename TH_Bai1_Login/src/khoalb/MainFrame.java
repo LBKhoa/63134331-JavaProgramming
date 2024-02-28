@@ -5,6 +5,8 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import java.awt.Font;
 
 public class MainFrame extends JFrame {
 
@@ -20,6 +22,12 @@ public class MainFrame extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Chào ");
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblNewLabel.setBounds(118, 115, 108, 36);
+		contentPane.add(lblNewLabel);
 	}
 
 }
